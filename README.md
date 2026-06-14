@@ -52,8 +52,8 @@ optional arguments:
 
 ```bash
 setjcomment 6552 -s "This is a short comment."
-setjcomment 6552 -vs # Opens the template file in VScode for editing.
-setjcomment 6552 -np # Opens the template file in Notepad for editing.
+setjcomment 6552 -t "2h" # Logs 2 hours to the JIRA issue.
+setjcomment 6552 -c "This is a short comment." # Adds a short comment to the JIRA issue.
 ```
 ---
 
